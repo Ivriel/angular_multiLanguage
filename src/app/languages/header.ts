@@ -1,12 +1,16 @@
 export const headerSectionLanguage = {
     en:{
-        first:"Home",
+        title:"Multi Language",
+        home:"Home",
+        user:"User",
         second:"User",
         third:"Equipment",
         fourth:"Request"
     },
     id:{
-        first:"Beranda",
+        title:"Multi Bahasa",
+        home:"Beranda",
+        user:"Pengguna",
         second:"Pengguna",
         third:"Peralatan",
         fourth:"Permintaan"
