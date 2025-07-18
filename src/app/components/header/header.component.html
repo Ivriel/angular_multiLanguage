@@ -1,0 +1,10 @@
+<nav>
+    <a>{{ text[lang].first}}</a>
+</nav>
+
+<button (click)="switchLanguage()">
+    {{lang === 'en'?'Indonesia':'Inggris'}}
+</button>
+<div class="content">
+    <router-outlet></router-outlet>
+</div>
