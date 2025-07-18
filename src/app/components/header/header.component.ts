@@ -2,10 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { RouterOutlet,RouterLink } from '@angular/router';
 import { LanguageService } from '../../services/language.service';
 import { headerSectionLanguage } from '../../languages/header';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-header',
-  imports: [RouterOutlet,RouterLink],
+  imports: [RouterOutlet,RouterLink,CommonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
